@@ -1,3 +1,6 @@
+import './ExpenseDate.css'
+
+
 function ExpenseDate(props){
 
     /* toISOString used to convert Date to readable format */
