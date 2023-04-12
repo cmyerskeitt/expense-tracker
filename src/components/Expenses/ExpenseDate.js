@@ -1,7 +1,7 @@
 import './ExpenseDate.css'
 
 
-function ExpenseDate(props){
+const ExpenseDate = (props) => {
 
     /* toISOString used to convert Date to readable format */
     const month = props.date.toLocaleString('en-US', {month:'long'})
