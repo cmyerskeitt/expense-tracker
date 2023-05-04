@@ -40,8 +40,7 @@ import NewExpense from "./components/NewExpense/NewExpense";
     }
 
     return (
-      <div >
-          <h2>This is the start.</h2>
+      <div>
           <NewExpense onAddExpense={addExpenseHandler}/>
           <Expenses items ={expenses}/>
       </div>
